@@ -1,5 +1,5 @@
 const express = require("express");
-const port = 4000;
+const port = process.env.PORT || 3000;
 const multer = require("multer");
 const mongoose = require("mongoose");
 const app = express();
